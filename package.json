@@ -1,0 +1,22 @@
+{
+  "name": "node-udemy-app",
+  "version": "1.0.0",
+  "description": "App created during Udemy course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kamratow/node-udemy-app.git"
+  },
+  "author": "Kamil Ratowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kamratow/node-udemy-app/issues"
+  },
+  "homepage": "https://github.com/Kamratow/node-udemy-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
