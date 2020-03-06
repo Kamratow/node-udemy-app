@@ -11,7 +11,12 @@ router.get('/', (req, res) => {
   // console.log('this is products array:', adminData.products);
   // res.sendFile(path.join(rootDir, 'views', 'shop.html'));
   const { products } = adminData;
-  res.render('shop', { prods: products, pageTitle: 'Shop', path: '/' });
+  res.render('shop', {
+    prods: products,
+    pageTitle: 'Shop',
+    path: '/',
+    hasProducts: products.length > 0,
+  });
 });
 
 module.exports = router;
